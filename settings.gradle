@@ -1,3 +1,3 @@
 include ':app', ':FORTSDKv1.6'
-rootProject.name='NWC'
+rootProject.name='imagepickerlib'
 include ':imagepicker'

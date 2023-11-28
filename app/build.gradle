@@ -3,10 +3,6 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 
-
-
-
-
 android {
     compileSdk 33
     namespace "com.example.myapplication"
