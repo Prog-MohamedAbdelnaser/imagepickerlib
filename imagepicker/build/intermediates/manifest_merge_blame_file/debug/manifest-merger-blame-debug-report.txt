@@ -1,0 +1,53 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.esafirm.imagepickerv2" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="24"
+6-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="33" />
+7-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+9-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:5:5-80
+9-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:5:22-77
+10    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+10-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:6:5-81
+10-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:6:22-78
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:7:5-65
+11-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:7:22-62
+12
+13    <application>
+13-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:9:5-26:19
+14        <activity
+14-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:10:9-14:50
+15            android:name="com.esafirm.imagepickerv2.features.ImagePickerActivity"
+15-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:12:13-82
+16            android:configChanges="orientation|screenSize"
+16-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:13:13-59
+17            android:exported="true"
+17-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:11:13-36
+18            android:theme="@style/ef_AppTheme" />
+18-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:14:13-47
+19
+20        <provider
+20-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:16:9-24:20
+21            android:name="com.esafirm.imagepickerv2.helper.ImagePickerFileProvider"
+21-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:17:13-84
+22            android:authorities="${applicationId}.imagepicker.provider"
+22-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:18:13-72
+23            android:exported="false"
+23-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:19:13-37
+24            android:grantUriPermissions="true" >
+24-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:20:13-47
+25            <meta-data
+25-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:21:13-23:71
+26                android:name="android.support.FILE_PROVIDER_PATHS"
+26-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:22:17-67
+27                android:resource="@xml/image_picker_provider_paths" />
+27-->E:\AndroidStudioProjects\NWC\androidrep-develop\imagepicker\src\main\AndroidManifest.xml:23:17-68
+28        </provider>
+29    </application>
+30
+31</manifest>

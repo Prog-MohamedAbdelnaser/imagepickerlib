@@ -1,0 +1,3 @@
+include ':app', ':FORTSDKv1.6'
+rootProject.name='NWC'
+include ':imagepicker'
