@@ -56,6 +56,11 @@ public abstract class ImagePicker {
             init(fragment.requireContext());
         }
 
+
+        public Intent getImagePickerIntent() {
+            return getIntent(fragment.getActivity());
+        }
+
         @Override
         public void start(int requestCode) {
             fragment.startActivityForResult(getIntent(fragment.getActivity()), requestCode);
